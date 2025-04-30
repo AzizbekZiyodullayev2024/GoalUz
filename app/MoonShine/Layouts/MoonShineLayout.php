@@ -32,6 +32,8 @@ use MoonShine\UI\Components\{Breadcrumbs,
     When};
 use App\MoonShine\Resources\TeamResource;
 use MoonShine\MenuManager\MenuItem;
+use App\MoonShine\Resources\CategoryResource;
+use App\MoonShine\Resources\ArticleResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -47,6 +49,8 @@ final class MoonShineLayout extends AppLayout
         return [
             ...parent::menu(),
             MenuItem::make('Teams', TeamResource::class),
+            MenuItem::make('Categories', CategoryResource::class),
+            MenuItem::make('Articles', ArticleResource::class),
         ];
     }
 

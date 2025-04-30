@@ -11,7 +11,7 @@
             ] as $match)
                 <li class="flex items-center justify-between">
                     <div class="text-sm">
-                        <p class="font-semibold">{{ $match['team1'] }}</p>
+                        <p class="text-gray-600">{{ $match['team1'] }}</p>
                         <p class="text-gray-600">{{ $match['team2'] }}</p>
                     </div>
                     <span class="text-sm font-medium text-gray-800">
@@ -25,19 +25,19 @@
         <h2 class="text-xl font-bold mb-4">Musobaqalar</h2>
     <ul class="space-y-2">
         <li class="flex items-center">
-            <img src="champion-league.png" alt="UEFA" class="w-6 h-6 mr-2">
+            <img src="images/champion-league.png" alt="UEFA" class="w-6 h-6 mr-2">
             <a href="/" class="text-gray-800 hover:underline">UEFA chempionlar ligasi</a>
         </li>
         <li class="flex items-center">
-            <img src="AFC.png" alt="OFK" class="w-6 h-6 mr-2">
-            <a href="/" class="text-gray-800 hover:underline">OFK Chempionlar ligasi</a>
+            <img src="images/AFC.png" alt="OFK" class="w-6 h-6 mr-2">
+            <a href="images/" class="text-gray-800 hover:underline">OFK Chempionlar ligasi</a>
         </li>
         <li class="flex items-center">
-            <img src="superliga.png" alt="O'zbekiston" class="w-6 h-6 mr-2">
+            <img src="images/superliga.png" alt="O'zbekiston" class="w-6 h-6 mr-2">
             <a href="/" class="text-gray-800 hover:underline">O'zbekiston</a>
         </li>
         <li class="flex items-center">
-            <img src="premierleague.png" alt="Angliya" class="w-6 h-6 mr-2">
+            <img src="images/premierleague.png" alt="Angliya" class="w-6 h-6 mr-2">
             <a href="/" class="text-gray-800 hover:underline">Angliya</a>
         </li>
     </ul>

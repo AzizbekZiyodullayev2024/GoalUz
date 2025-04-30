@@ -1,7 +1,7 @@
 <!-- resources/views/components/header.blade.php -->
 
 <header class="shadow px-60">
-    <!-- Reklama banneri -->
+    <!-- Reklama banneri -->    
     <div class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white px-6 py-4 flex items-center justify-between">
         <div>
             <h1 class="text-4xl sm:text-5xl font-extrabold uppercase">Bepul propan</h1>
@@ -15,7 +15,7 @@
         <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
             <!-- Chap logo -->
             <a href="#" class="text-white text-2xl font-extrabold tracking-wide flex items-center">
-                <span class="text-white mr-1"></span><span class="text-white font-bold">SPORTS.</span><span class="text-white">uz</span>
+                <span class="text-white mr-1"></span><span class="text-white font-bold">GOAL.</span><span class="text-white">uz</span>
             </a>
 
             <!-- O‘rtadagi menyu -->
@@ -36,7 +36,7 @@
                 <button class="hover:text-gray-300"><i class="fas fa-user-circle"></i></button>
                 <button class="hover:text-gray-300"><i class="fas fa-moon"></i></button>
                 <select class="bg-[#0056A3] text-white border-none focus:outline-none text-sm">
-                    <option>OZ</option>
+                    <option>UZ</option>
                     <option>RU</option>
                 </select>
             </div>
