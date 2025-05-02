@@ -84,7 +84,6 @@ class ArticleResource extends ModelResource
             Number::make('Views', 'views'),
         ];
     }
-
     /**
      * @param Article $item
      * @return array<string, string[]|string>

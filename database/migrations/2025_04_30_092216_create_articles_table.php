@@ -23,10 +23,10 @@ return new class extends Migration
             $table->unsignedInteger('views')->default(0);
         });
     }
-
     /**
      * Reverse the migrations.
      */
+    
     public function down(): void
     {
         Schema::dropIfExists('articles');
